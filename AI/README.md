@@ -1,3 +1,9 @@
 # Artificial Intelligence
 
-Python assignments and coursework for the Artificial Intelligence subject at IIT Jodhpur MTech program.
+Assignments and coursework for the Artificial Intelligence subject — IIT Jodhpur MTech program.
+
+## Assignments
+
+| Folder | Topic |
+|--------|-------|
+| [Assignment_1/](Assignment_1/) | 8-Puzzle Search Algorithms + CSP Security Bot Scheduling |

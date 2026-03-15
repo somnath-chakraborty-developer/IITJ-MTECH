@@ -1,0 +1,16 @@
+# Security Bot Scheduling — CSP Input
+# Bots (domain)
+DOMAIN: A, B, C
+
+# Shifts (variables)
+VARIABLES: Slot1, Slot2, Slot3, Slot4
+
+# Constraints
+# Adjacent slots cannot have the same bot
+CONSTRAINT: NO_CONSECUTIVE
+
+# Bot C cannot work Slot 4 (maintenance)
+UNARY: Slot4 != C
+
+# Every bot must be assigned at least once
+CONSTRAINT: ALL_BOTS_USED
